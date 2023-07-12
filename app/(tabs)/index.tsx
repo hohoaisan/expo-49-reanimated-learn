@@ -1,12 +1,13 @@
 import { StyleSheet } from 'react-native';
 
 import { Text, View } from '@/components/Themed';
-import Introduce from '@/reanimated/1.Introduce';
+
+import PanGesture from '@/reanimated/2.PanGesture';
 
 export default function TabOneScreen() {
   return (
     <View style={styles.container}>
-      <Introduce />
+      <PanGesture />
     </View>
   );
 }
